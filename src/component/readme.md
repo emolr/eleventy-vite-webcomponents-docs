@@ -8,10 +8,13 @@ permalink: components/component/index.html
 just a component dummy documentation
 
 <code-example>
+
 ```html
     <my-component id="my-component"></my-component>
 ```
+
 ```js
-    console.log('hey', document.getElementById('my-component'))
+    console.log('hey', document.querySelector('my-component'))
 ```
+
 </code-example>
