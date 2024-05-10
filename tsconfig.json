@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "experimentalDecorators": true,
+      "useDefineForClassFields": false,
+      "module": "ESNext",
+      "lib": ["ESNext", "DOM", "DOM.Iterable"],
+      "skipLibCheck": true,
+      "inlineSourceMap": true,
+      "declaration": true,
+  
+      /* Modules */
+      "moduleResolution": "bundler",
+      "allowImportingTsExtensions": false,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": false,
+  
+      /* Linting */
+      "strict": false,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "noFallthroughCasesInSwitch": true
+    },
+    "include": [".eleventy/_components/**/*.ts"]
+  }
+  

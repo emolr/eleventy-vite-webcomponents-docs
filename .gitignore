@@ -1,2 +1,4 @@
 dist
 node_modules
+.eleventy/_components/**/*.js
+.eleventy/_components/**/*.d.ts

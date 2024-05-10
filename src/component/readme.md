@@ -7,14 +7,14 @@ permalink: components/component/index.html
 
 just a component dummy documentation
 
-<code-example>
+<code-example min-height="120px">
 
 ```html
-    <my-component id="my-component"></my-component>
+    <xyba-analog></xyba-analog>
 ```
 
 ```js
-    console.log('hey', document.querySelector('my-component'))
+    console.log('analog input', document.querySelector('xyba-analog'))
 ```
 
 </code-example>
